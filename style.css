@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #E28625;
+    --cyan: #006971;
+    --dark-cyan: #004140;
+    --gray: #F2F2F2;
+    --transparent-white: rgba(255, 255, 0.75);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+    font-family: 'Lexend Deca', sans-serif;
+}
