@@ -27,7 +27,6 @@ p {
     margin-bottom: 1.875rem;
     line-height: 1.5625rem;
 }
-
 a {
     font-family: 'Lexend Deca', sans-serif;
     display: block;
@@ -39,32 +38,58 @@ a {
     border-radius: 1.5625rem;
     background: var(--gray);
 }
-
 section {
-	@@ -42,6 +51,7 @@ section 
+    padding: 3rem;
 }
-
 .sedans {
     background: var(--orange);
     border-radius: 8px 8px 0 0;
 }
-
 .suvs {
-	@@ -50,4 +60,17 @@ section 
+    background: var(--cyan)
 }
 .luxos {
     background: var(--dark-cyan);
     border-radius: 0 0 8px 8px;
 }
-
 .sedans a {
     color: var(--orange);
 }
-
 .suvs a {
     color: var(--cyan);
 }
 
 .luxos a {
     color: var(--dark-cyan);
+}
+
+@media(min-width: 920px) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        max-width: 57.5rem;
+    }
+
+    p {
+        margin-bottom: 5.25rem;
+    }
+
+    a:hover {
+        background: transparent;
+        color: var(--gray);
+    }
+
+    .sedans {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .luxos {
+        border-radius: 0 8px 0 8px;
+    }
 }
