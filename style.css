@@ -3,23 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --orange: #E28625;
     --cyan: #006971;
     --dark-cyan: #004140;
     --gray: #F2F2F2;
-    --transparent-white: rgba(255, 255, 0.75);
+    --transparent-white: rgba(255, 255, 255, 0.75);
+}
+
+body {
+    padding: 5.5rem 1.5rem;
 }
 
 h2 {
     font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: var(--gray);
+    margin-block: 1.875rem;
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9375rem;
+    color: var(--transparent-white);
+    margin-bottom: 1.875rem;
 }
 
 a {
     font-family: 'Lexend Deca', sans-serif;
+}
+
+section {
+    padding: 3rem;
+}
+
+
+.sedans {
+    background: var(--orange);
+}
+
+.suvs {
+    background: var(--cyan)
+}
+
+.luxos {
+    background: var(--dark-cyan);
 }
