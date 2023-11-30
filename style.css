@@ -10,11 +10,9 @@
     --gray: #F2F2F2;
     --transparent-white: rgba(255, 255, 255, 0.75);
 }
-
 body {
     padding: 5.5rem 1.5rem;
 }
-
 h2 {
     font-family: 'Big Shoulders Display', sans-serif;
     text-transform: uppercase;
@@ -22,31 +20,51 @@ h2 {
     color: var(--gray);
     margin-block: 1.875rem;
 }
-
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.9375rem;
     color: var(--transparent-white);
     margin-bottom: 1.875rem;
+    line-height: 1.5625rem;
 }
 
 a {
     font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    text-decoration: none;
+    border: 2px solid var(--gray);
+    width: fit-content;
+    font-size: 0.9375rem;
+    padding: 0.75rem 2.5rem;
+    border-radius: 1.5625rem;
+    background: var(--gray);
 }
 
 section {
-    padding: 3rem;
+	@@ -42,6 +51,7 @@ section 
 }
-
 
 .sedans {
     background: var(--orange);
+    border-radius: 8px 8px 0 0;
 }
 
 .suvs {
-    background: var(--cyan)
+	@@ -50,4 +60,17 @@ section 
 }
-
 .luxos {
     background: var(--dark-cyan);
+    border-radius: 0 0 8px 8px;
+}
+
+.sedans a {
+    color: var(--orange);
+}
+
+.suvs a {
+    color: var(--cyan);
+}
+
+.luxos a {
+    color: var(--dark-cyan);
 }
